@@ -1,5 +1,5 @@
 /**
- * Represents a Todos.
+ * Represents a Todo
  * @typedef Todo
  * @type {Object}
  * @property {string} id - To do id.
@@ -8,6 +8,19 @@
  * @property {string} categorys - To do categorys.
  * @property {string} tags - To do tags.
  */
+
+/**
+ * Represents a book.
+ * @constructor
+ * @param {string} title - The title of the book.
+ * @param {string} author - The author of the book.
+ * @property {string} id - To do id.
+ * @property {string} contents - To do Contents.
+ * @property {boolean} isCompleted - To do Completed.
+ * @property {string} categorys - To do categorys.
+ * @property {string} tags - To do tags.
+ */
+function Todo(title, author) { }
 
 /**
  * Create todo.
